@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="tr"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Predictive Analytics</title>
+    <link rel="stylesheet" href="../static/css/nicepage.css" media="screen">
+<link rel="stylesheet" href="../static/css/Giriş.css" media="screen">
+    <script class="u-script" type="text/javascript" src="../static/jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="../static/nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.0.7, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400">
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Modelartsapi",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Giriş">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body u-xl-mode" data-lang="tr"><header class="u-clearfix u-gradient u-header u-header" id="sec-3b96"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="/" class="u-image u-logo u-image-1" data-image-width="412" data-image-height="326">
+          <img src="../static/images/default-logo.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="ObjectD.html" style="padding: 10px 20px;">Object Detection</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Predictive.html" style="padding: 10px 20px;">Predictive Analytics</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Video.html" style="padding: 10px 20px;">Video</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Demo.html" style="padding: 10px 20px;">Demo</a>
+</li></ul>
+          </div>
+          <div class="u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="ObjectD.html">Object Detection</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Predictive.html">Predictive Analytics</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Video.html">Video</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Demo.html">Demo</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <p class="u-custom-font u-font-lobster u-text u-text-default u-text-1">Detection</p>
+      </div></header>
+    <section class="u-clearfix u-gradient u-section-1" id="sec-47b3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-palette-2-dark-3 u-text-1">2 Adımda ModelArts Predictive Analytics servisini API ile kendi web sitemizde kullanma</h2>
+        <h3 class="u-text u-text-default u-text-2">Adım 1</h3>
+        <h5 class="u-text u-text-3">Authentication Token elde et. Bu token bizim Huawei Cloud'da oturum açmamız ve devamında servisleri kullanabilmemiz için gerekli bir erişim belirtecidir.</h5>
+        <div class="u-container-style u-expanded-width u-group u-palette-1-base u-radius-10 u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-1"></div>
+            <h6 class="u-text u-text-black u-text-4">https://iam.<span class="u-text-palette-1-base">{project-name}</span>.myhuaweicloud.com/v3/auth/tokens
+            </h6>
+            <h4 class="u-text u-text-default u-text-white u-text-5">URL</h4>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-palette-2-light-1 u-radius-10 u-shape-round u-group-2">
+          <div class="u-container-layout u-container-layout-2">
+            <h4 class="u-text u-text-default u-text-white u-text-6">Method</h4>
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-2"></div>
+            <h6 class="u-text u-text-black u-text-7">POST</h6>
+          </div>
+        </div>
+        <div class="u-container-style u-expanded-width u-group u-palette-4-light-1 u-radius-10 u-shape-round u-group-3">
+          <div class="u-container-layout u-container-layout-3">
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-3"></div>
+            <p class="u-custom-font u-heading-font u-text u-text-8">{<br>&nbsp; "auth":&nbsp;{&nbsp;<br>&nbsp; &nbsp; "identity":&nbsp;{&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;"methods": [
+ "password"
+ ],&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; "password": {&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "user": {&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "<span class="u-text-palette-2-base">user_name</span>",&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "password": "<span class="u-text-palette-2-base">user_password</span>",&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "domain": {&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "<span class="u-text-palette-2-base">domain_name</span>"<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }}}},&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "scope": {&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "project": {&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name": "<span class="u-text-palette-2-base">project_name</span>"&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}}}}
+            </p>
+            <h4 class="u-text u-text-default u-text-white u-text-9">Body</h4>
+          </div>
+        </div>
+        <p class="u-text u-text-palette-1-base u-text-10"><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 55.25 55.25" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M52.618,2.631c-3.51-3.508-9.219-3.508-12.729,0L3.827,38.693C3.81,38.71,3.8,38.731,3.785,38.749
+	c-0.021,0.024-0.039,0.05-0.058,0.076c-0.053,0.074-0.094,0.153-0.125,0.239c-0.009,0.026-0.022,0.049-0.029,0.075
+	c-0.003,0.01-0.009,0.02-0.012,0.03l-3.535,14.85c-0.016,0.067-0.02,0.135-0.022,0.202C0.004,54.234,0,54.246,0,54.259
+	c0.001,0.114,0.026,0.225,0.065,0.332c0.009,0.025,0.019,0.047,0.03,0.071c0.049,0.107,0.11,0.21,0.196,0.296
+	c0.095,0.095,0.207,0.168,0.328,0.218c0.121,0.05,0.25,0.075,0.379,0.075c0.077,0,0.155-0.009,0.231-0.027l14.85-3.535
+	c0.027-0.006,0.051-0.021,0.077-0.03c0.034-0.011,0.066-0.024,0.099-0.039c0.072-0.033,0.139-0.074,0.201-0.123
+	c0.024-0.019,0.049-0.033,0.072-0.054c0.008-0.008,0.018-0.012,0.026-0.02l36.063-36.063C56.127,11.85,56.127,6.14,52.618,2.631z
+	 M51.204,4.045c2.488,2.489,2.7,6.397,0.65,9.137l-9.787-9.787C44.808,1.345,48.716,1.557,51.204,4.045z M46.254,18.895l-9.9-9.9
+	l1.414-1.414l9.9,9.9L46.254,18.895z M4.961,50.288c-0.391-0.391-1.023-0.391-1.414,0L2.79,51.045l2.554-10.728l4.422-0.491
+	l-0.569,5.122c-0.004,0.038,0.01,0.073,0.01,0.11c0,0.038-0.014,0.072-0.01,0.11c0.004,0.033,0.021,0.06,0.028,0.092
+	c0.012,0.058,0.029,0.111,0.05,0.165c0.026,0.065,0.057,0.124,0.095,0.181c0.031,0.046,0.062,0.087,0.1,0.127
+	c0.048,0.051,0.1,0.094,0.157,0.134c0.045,0.031,0.088,0.06,0.138,0.084C9.831,45.982,9.9,46,9.972,46.017
+	c0.038,0.009,0.069,0.03,0.108,0.035c0.036,0.004,0.072,0.006,0.109,0.006c0,0,0.001,0,0.001,0c0,0,0.001,0,0.001,0h0.001
+	c0,0,0.001,0,0.001,0c0.036,0,0.073-0.002,0.109-0.006l5.122-0.569l-0.491,4.422L4.204,52.459l0.757-0.757
+	C5.351,51.312,5.351,50.679,4.961,50.288z M17.511,44.809L39.889,22.43c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0
+	L16.097,43.395l-4.773,0.53l0.53-4.773l22.38-22.378c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L10.44,37.738
+	l-3.183,0.354L34.94,10.409l9.9,9.9L17.157,47.992L17.511,44.809z M49.082,16.067l-9.9-9.9l1.415-1.415l9.9,9.9L49.082,16.067z"></path></svg><img></span>
+          <span class="u-text-black"></span>{project-name}
+        </p>
+        <h5 class="u-text u-text-11">ModelArts servisini kullandığınız Region'ın project-name'ini yazmalısınız. Aşağıda bu ifadeye nasıl ulaşacağınız belirtilmiştir.</h5>
+        <img class="u-align-center u-image u-image-default u-image-1" src="../static/images/ilkfoto.png" alt="" data-image-width="1726" data-image-height="576">
+        <p class="u-text u-text-palette-2-base u-text-12"><span class="u-icon u-icon-2"><svg class="u-svg-content" viewBox="0 0 55.25 55.25" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M52.618,2.631c-3.51-3.508-9.219-3.508-12.729,0L3.827,38.693C3.81,38.71,3.8,38.731,3.785,38.749
+	c-0.021,0.024-0.039,0.05-0.058,0.076c-0.053,0.074-0.094,0.153-0.125,0.239c-0.009,0.026-0.022,0.049-0.029,0.075
+	c-0.003,0.01-0.009,0.02-0.012,0.03l-3.535,14.85c-0.016,0.067-0.02,0.135-0.022,0.202C0.004,54.234,0,54.246,0,54.259
+	c0.001,0.114,0.026,0.225,0.065,0.332c0.009,0.025,0.019,0.047,0.03,0.071c0.049,0.107,0.11,0.21,0.196,0.296
+	c0.095,0.095,0.207,0.168,0.328,0.218c0.121,0.05,0.25,0.075,0.379,0.075c0.077,0,0.155-0.009,0.231-0.027l14.85-3.535
+	c0.027-0.006,0.051-0.021,0.077-0.03c0.034-0.011,0.066-0.024,0.099-0.039c0.072-0.033,0.139-0.074,0.201-0.123
+	c0.024-0.019,0.049-0.033,0.072-0.054c0.008-0.008,0.018-0.012,0.026-0.02l36.063-36.063C56.127,11.85,56.127,6.14,52.618,2.631z
+	 M51.204,4.045c2.488,2.489,2.7,6.397,0.65,9.137l-9.787-9.787C44.808,1.345,48.716,1.557,51.204,4.045z M46.254,18.895l-9.9-9.9
+	l1.414-1.414l9.9,9.9L46.254,18.895z M4.961,50.288c-0.391-0.391-1.023-0.391-1.414,0L2.79,51.045l2.554-10.728l4.422-0.491
+	l-0.569,5.122c-0.004,0.038,0.01,0.073,0.01,0.11c0,0.038-0.014,0.072-0.01,0.11c0.004,0.033,0.021,0.06,0.028,0.092
+	c0.012,0.058,0.029,0.111,0.05,0.165c0.026,0.065,0.057,0.124,0.095,0.181c0.031,0.046,0.062,0.087,0.1,0.127
+	c0.048,0.051,0.1,0.094,0.157,0.134c0.045,0.031,0.088,0.06,0.138,0.084C9.831,45.982,9.9,46,9.972,46.017
+	c0.038,0.009,0.069,0.03,0.108,0.035c0.036,0.004,0.072,0.006,0.109,0.006c0,0,0.001,0,0.001,0c0,0,0.001,0,0.001,0h0.001
+	c0,0,0.001,0,0.001,0c0.036,0,0.073-0.002,0.109-0.006l5.122-0.569l-0.491,4.422L4.204,52.459l0.757-0.757
+	C5.351,51.312,5.351,50.679,4.961,50.288z M17.511,44.809L39.889,22.43c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0
+	L16.097,43.395l-4.773,0.53l0.53-4.773l22.38-22.378c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L10.44,37.738
+	l-3.183,0.354L34.94,10.409l9.9,9.9L17.157,47.992L17.511,44.809z M49.082,16.067l-9.9-9.9l1.415-1.415l9.9,9.9L49.082,16.067z"></path></svg><img></span>user_name | user_password | domain_name | project_name
+        </p>
+        <h5 class="u-text u-text-palette-2-base u-text-13">user_name -&gt;&nbsp;<span class="u-text-black"> IAM User Name'inizdir.</span>
+          <br>user_password -&gt; <font color="#000000">IAM User şifrenizdir.</font>
+          <br>domain_name -&gt; <span class="u-text-black">Account Name'inizdir.</span>
+          <br>project_name -&gt;&nbsp;<span class="u-text-black">
+            <span class="u-text-palette-1-base">{project-name}</span> ile aynıdır.
+          </span>
+        </h5>
+        <img class="u-expanded-width u-image u-image-contain u-image-default u-image-2" src="../static/images/IAMuser1.png" alt="" data-image-width="2090" data-image-height="454">
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-2" id="sec-5533">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-align-left u-text u-text-default u-text-1">Python ile Authentication Token Elde Etmek</h4>
+        <h6 class="u-text u-text-default u-text-2">Aşağıdaki kod örneğinde "AP-Singapore" Region'ında yer alan ModelArts servisimizi kullanabilmek için Authentication Token alıyoruz.</h6>
+        <div class="u-align-center u-clearfix u-group-elements u-group-elements-1">
+          <div class="u-black u-expanded-width u-shape u-shape-rectangle u-shape-1"></div>
+          <p class="u-align-left u-text u-text-body-alt-color u-text-3">
+            <span class="u-text-custom-color-1">import</span> requests<br>
+            <span class="u-text-custom-color-1">import</span> json<br>
+            <br>Auth_Token_URL = <span class="u-text-custom-color-2" style="">"https://iam. <span class="u-text-palette-1-base">ap-southeast-3</span>.myhuaweicloud.com/v3/auth/tokens"
+            </span>
+            <br>
+            <br>Body = <span class="u-text-palette-3-base">{</span>
+            <br>&nbsp; <span class="u-text-custom-color-2">"auth"</span>
+            <span class="u-text-custom-color-2">
+              <span class="u-text-white">:</span>&nbsp;<span class="u-text-palette-2-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; "identity"<span class="u-text-white">:</span>&nbsp;<span class="u-text-palette-1-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp;"methods"<span class="u-text-white">:</span>
+              <span class="u-text-palette-3-base">[</span> "password" <span class="u-text-palette-3-base">]</span>
+              <span class="u-text-white">,</span>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; "password"<span class="u-text-white">:</span>
+              <span class="u-text-palette-3-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "user"<span class="u-text-white">:</span>
+              <span class="u-text-palette-2-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name"<span class="u-text-white">:</span> "<span class="u-text-palette-2-base">h00xxxx</span>"<span class="u-text-white">,</span>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "password"<span class="u-text-white">:</span> "<span class="u-text-palette-2-base">xxxxxxx</span>"<span class="u-text-white">,</span>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "domain"<span class="u-text-white">:</span>
+              <span class="u-text-palette-1-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name"<span class="u-text-grey-5">:</span> "<span class="u-text-palette-2-base">hwcxxxxxxx</span>"<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-1-base">}</span>
+              <span class="u-text-palette-2-base">}</span>
+              <span class="u-text-palette-3-base">}</span>
+              <span class="u-text-palette-1-base">}</span>,&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "scope"<span class="u-text-white">:</span>
+              <span class="u-text-palette-1-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "project"<span class="u-text-white">:</span>
+              <span class="u-text-palette-3-base">{&nbsp;</span>
+              <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; "name"<span class="u-text-white">:</span> "<span class="u-text-palette-1-base">
+                <span class="u-text-palette-2-base">ap-southeast-3</span>
+              </span>"&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="u-text-palette-3-base">}</span>
+              <span class="u-text-palette-1-base">}</span>
+              <span class="u-text-palette-2-base">}</span>
+            </span>
+            <br>
+            <span class="u-text-palette-3-base">}</span>
+            <br>response = requests.request<span class="u-text-palette-3-base">(</span>
+            <span class="u-text-custom-color-2">"POST"</span>, Auth_Token_URL, <span class="u-text-palette-1-base">json</span>=Body<span class="u-text-palette-3-base">)</span>
+            <br>X_Auth_Token = response.headers[<span class="u-text-custom-color-2">"X-Subject-Token"</span>
+            <span class="u-text-palette-3-base">]</span>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+          </p>
+        </div>
+        <h5 class="u-text u-text-4">Elde ettiğimiz Authentication Token'ı kullanarak deploy edilmiş Object Detection servisimizi API aracılığıyla kullanalım.</h5>
+        <h3 class="u-text u-text-default u-text-5">Adım 2</h3>
+        <div class="u-container-style u-expanded-width u-group u-palette-1-base u-radius-10 u-shape-round u-group-1">
+          <div class="u-container-layout u-container-layout-1">
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-2"></div>
+            <h6 class="u-text u-text-palette-1-base u-text-6"> Service API Address</h6>
+            <h4 class="u-text u-text-default u-text-white u-text-7">URL</h4>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-palette-2-light-1 u-radius-10 u-shape-round u-group-2">
+          <div class="u-container-layout u-container-layout-2">
+            <h4 class="u-text u-text-default u-text-white u-text-8">Method</h4>
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-3"></div>
+            <h6 class="u-text u-text-black u-text-9">POST</h6>
+          </div>
+        </div>
+        <div class="u-container-style u-expanded-width u-grey-60 u-group u-radius-10 u-shape-round u-group-3">
+          <div class="u-container-layout u-container-layout-3">
+            <h4 class="u-text u-text-default u-text-white u-text-10">Headers</h4>
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-4"></div>
+            <h6 class="u-text u-text-black u-text-11">"X-Auth-Token"</h6>
+          </div>
+        </div>
+        <div class="u-container-style u-group u-palette-1-light-2 u-radius-10 u-shape-round u-group-4">
+          <div class="u-container-layout u-container-layout-4">
+            <h4 class="u-text u-text-default u-text-white u-text-12">Data</h4>
+            <div class="u-radius-10 u-shape u-shape-round u-white u-shape-5"></div>
+            <h6 class="u-text u-text-black u-text-13">json</h6>
+          </div>
+        </div>
+        <p class="u-text u-text-palette-1-base u-text-14"><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="0 0 55.25 55.25" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M52.618,2.631c-3.51-3.508-9.219-3.508-12.729,0L3.827,38.693C3.81,38.71,3.8,38.731,3.785,38.749
+	c-0.021,0.024-0.039,0.05-0.058,0.076c-0.053,0.074-0.094,0.153-0.125,0.239c-0.009,0.026-0.022,0.049-0.029,0.075
+	c-0.003,0.01-0.009,0.02-0.012,0.03l-3.535,14.85c-0.016,0.067-0.02,0.135-0.022,0.202C0.004,54.234,0,54.246,0,54.259
+	c0.001,0.114,0.026,0.225,0.065,0.332c0.009,0.025,0.019,0.047,0.03,0.071c0.049,0.107,0.11,0.21,0.196,0.296
+	c0.095,0.095,0.207,0.168,0.328,0.218c0.121,0.05,0.25,0.075,0.379,0.075c0.077,0,0.155-0.009,0.231-0.027l14.85-3.535
+	c0.027-0.006,0.051-0.021,0.077-0.03c0.034-0.011,0.066-0.024,0.099-0.039c0.072-0.033,0.139-0.074,0.201-0.123
+	c0.024-0.019,0.049-0.033,0.072-0.054c0.008-0.008,0.018-0.012,0.026-0.02l36.063-36.063C56.127,11.85,56.127,6.14,52.618,2.631z
+	 M51.204,4.045c2.488,2.489,2.7,6.397,0.65,9.137l-9.787-9.787C44.808,1.345,48.716,1.557,51.204,4.045z M46.254,18.895l-9.9-9.9
+	l1.414-1.414l9.9,9.9L46.254,18.895z M4.961,50.288c-0.391-0.391-1.023-0.391-1.414,0L2.79,51.045l2.554-10.728l4.422-0.491
+	l-0.569,5.122c-0.004,0.038,0.01,0.073,0.01,0.11c0,0.038-0.014,0.072-0.01,0.11c0.004,0.033,0.021,0.06,0.028,0.092
+	c0.012,0.058,0.029,0.111,0.05,0.165c0.026,0.065,0.057,0.124,0.095,0.181c0.031,0.046,0.062,0.087,0.1,0.127
+	c0.048,0.051,0.1,0.094,0.157,0.134c0.045,0.031,0.088,0.06,0.138,0.084C9.831,45.982,9.9,46,9.972,46.017
+	c0.038,0.009,0.069,0.03,0.108,0.035c0.036,0.004,0.072,0.006,0.109,0.006c0,0,0.001,0,0.001,0c0,0,0.001,0,0.001,0h0.001
+	c0,0,0.001,0,0.001,0c0.036,0,0.073-0.002,0.109-0.006l5.122-0.569l-0.491,4.422L4.204,52.459l0.757-0.757
+	C5.351,51.312,5.351,50.679,4.961,50.288z M17.511,44.809L39.889,22.43c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0
+	L16.097,43.395l-4.773,0.53l0.53-4.773l22.38-22.378c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L10.44,37.738
+	l-3.183,0.354L34.94,10.409l9.9,9.9L17.157,47.992L17.511,44.809z M49.082,16.067l-9.9-9.9l1.415-1.415l9.9,9.9L49.082,16.067z"></path></svg><img></span>
+          <span class="u-text-black"></span>Service API Address
+        </p>
+        <h5 class="u-text u-text-15">Öncesinde deploy ettiğiniz servisinizin API adresi. Aşağıda bu API adresini nasıl bulacağınız gösterilmiştir.</h5>
+        <img class="u-expanded-width u-image u-image-contain u-image-default u-image-1" src="../static/images/Realtimeservices1.png" alt="" data-image-width="2324" data-image-height="680">
+        <p class="u-text u-text-black u-text-16"><span class="u-icon u-icon-2"><svg class="u-svg-content" viewBox="0 0 55.25 55.25" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M52.618,2.631c-3.51-3.508-9.219-3.508-12.729,0L3.827,38.693C3.81,38.71,3.8,38.731,3.785,38.749
+	c-0.021,0.024-0.039,0.05-0.058,0.076c-0.053,0.074-0.094,0.153-0.125,0.239c-0.009,0.026-0.022,0.049-0.029,0.075
+	c-0.003,0.01-0.009,0.02-0.012,0.03l-3.535,14.85c-0.016,0.067-0.02,0.135-0.022,0.202C0.004,54.234,0,54.246,0,54.259
+	c0.001,0.114,0.026,0.225,0.065,0.332c0.009,0.025,0.019,0.047,0.03,0.071c0.049,0.107,0.11,0.21,0.196,0.296
+	c0.095,0.095,0.207,0.168,0.328,0.218c0.121,0.05,0.25,0.075,0.379,0.075c0.077,0,0.155-0.009,0.231-0.027l14.85-3.535
+	c0.027-0.006,0.051-0.021,0.077-0.03c0.034-0.011,0.066-0.024,0.099-0.039c0.072-0.033,0.139-0.074,0.201-0.123
+	c0.024-0.019,0.049-0.033,0.072-0.054c0.008-0.008,0.018-0.012,0.026-0.02l36.063-36.063C56.127,11.85,56.127,6.14,52.618,2.631z
+	 M51.204,4.045c2.488,2.489,2.7,6.397,0.65,9.137l-9.787-9.787C44.808,1.345,48.716,1.557,51.204,4.045z M46.254,18.895l-9.9-9.9
+	l1.414-1.414l9.9,9.9L46.254,18.895z M4.961,50.288c-0.391-0.391-1.023-0.391-1.414,0L2.79,51.045l2.554-10.728l4.422-0.491
+	l-0.569,5.122c-0.004,0.038,0.01,0.073,0.01,0.11c0,0.038-0.014,0.072-0.01,0.11c0.004,0.033,0.021,0.06,0.028,0.092
+	c0.012,0.058,0.029,0.111,0.05,0.165c0.026,0.065,0.057,0.124,0.095,0.181c0.031,0.046,0.062,0.087,0.1,0.127
+	c0.048,0.051,0.1,0.094,0.157,0.134c0.045,0.031,0.088,0.06,0.138,0.084C9.831,45.982,9.9,46,9.972,46.017
+	c0.038,0.009,0.069,0.03,0.108,0.035c0.036,0.004,0.072,0.006,0.109,0.006c0,0,0.001,0,0.001,0c0,0,0.001,0,0.001,0h0.001
+	c0,0,0.001,0,0.001,0c0.036,0,0.073-0.002,0.109-0.006l5.122-0.569l-0.491,4.422L4.204,52.459l0.757-0.757
+	C5.351,51.312,5.351,50.679,4.961,50.288z M17.511,44.809L39.889,22.43c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0
+	L16.097,43.395l-4.773,0.53l0.53-4.773l22.38-22.378c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L10.44,37.738
+	l-3.183,0.354L34.94,10.409l9.9,9.9L17.157,47.992L17.511,44.809z M49.082,16.067l-9.9-9.9l1.415-1.415l9.9,9.9L49.082,16.067z"></path></svg><img></span>X-Auth-Token
+        </p>
+        <h5 class="u-text u-text-17">Adım 1'de elde ettiğimiz Authentication Token.</h5>
+        <p class="u-text u-text-black u-text-16"><span class="u-icon u-icon-2"><svg class="u-svg-content" viewBox="0 0 55.25 55.25" x="0px" y="0px" style="width: 1em; height: 1em;"><path d="M52.618,2.631c-3.51-3.508-9.219-3.508-12.729,0L3.827,38.693C3.81,38.71,3.8,38.731,3.785,38.749
+          c-0.021,0.024-0.039,0.05-0.058,0.076c-0.053,0.074-0.094,0.153-0.125,0.239c-0.009,0.026-0.022,0.049-0.029,0.075
+          c-0.003,0.01-0.009,0.02-0.012,0.03l-3.535,14.85c-0.016,0.067-0.02,0.135-0.022,0.202C0.004,54.234,0,54.246,0,54.259
+          c0.001,0.114,0.026,0.225,0.065,0.332c0.009,0.025,0.019,0.047,0.03,0.071c0.049,0.107,0.11,0.21,0.196,0.296
+          c0.095,0.095,0.207,0.168,0.328,0.218c0.121,0.05,0.25,0.075,0.379,0.075c0.077,0,0.155-0.009,0.231-0.027l14.85-3.535
+          c0.027-0.006,0.051-0.021,0.077-0.03c0.034-0.011,0.066-0.024,0.099-0.039c0.072-0.033,0.139-0.074,0.201-0.123
+          c0.024-0.019,0.049-0.033,0.072-0.054c0.008-0.008,0.018-0.012,0.026-0.02l36.063-36.063C56.127,11.85,56.127,6.14,52.618,2.631z
+           M51.204,4.045c2.488,2.489,2.7,6.397,0.65,9.137l-9.787-9.787C44.808,1.345,48.716,1.557,51.204,4.045z M46.254,18.895l-9.9-9.9
+          l1.414-1.414l9.9,9.9L46.254,18.895z M4.961,50.288c-0.391-0.391-1.023-0.391-1.414,0L2.79,51.045l2.554-10.728l4.422-0.491
+          l-0.569,5.122c-0.004,0.038,0.01,0.073,0.01,0.11c0,0.038-0.014,0.072-0.01,0.11c0.004,0.033,0.021,0.06,0.028,0.092
+          c0.012,0.058,0.029,0.111,0.05,0.165c0.026,0.065,0.057,0.124,0.095,0.181c0.031,0.046,0.062,0.087,0.1,0.127
+          c0.048,0.051,0.1,0.094,0.157,0.134c0.045,0.031,0.088,0.06,0.138,0.084C9.831,45.982,9.9,46,9.972,46.017
+          c0.038,0.009,0.069,0.03,0.108,0.035c0.036,0.004,0.072,0.006,0.109,0.006c0,0,0.001,0,0.001,0c0,0,0.001,0,0.001,0h0.001
+          c0,0,0.001,0,0.001,0c0.036,0,0.073-0.002,0.109-0.006l5.122-0.569l-0.491,4.422L4.204,52.459l0.757-0.757
+          C5.351,51.312,5.351,50.679,4.961,50.288z M17.511,44.809L39.889,22.43c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0
+          L16.097,43.395l-4.773,0.53l0.53-4.773l22.38-22.378c0.391-0.391,0.391-1.023,0-1.414s-1.023-0.391-1.414,0L10.44,37.738
+          l-3.183,0.354L34.94,10.409l9.9,9.9L17.157,47.992L17.511,44.809z M49.082,16.067l-9.9-9.9l1.415-1.415l9.9,9.9L49.082,16.067z"></path></svg><img></span>json
+                </p>
+                <h5 class="u-text u-text-17">Modeli oluştururken predict etmek istediğimiz attribute'u belirlemiştik. (örneğin attr_6). İstek atarken kullanacağımız json'da bu attribute'un değerini boş bırakıp diğer tüm attribute'lerimizin değerlerini veriyoruz. Aşağıda buna örnek verilmiştir. Örnekte attribute 6 tahmin edilmek istendiği için istek atarken json'da değeri boş bırakılmıştır.</h5>
+                <img src="../static/images/json.png">
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-3" id="sec-136f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-align-left u-text u-text-default u-text-1">Python ile Deploy Edilmiş Servisi Kullanmak</h4>
+       <img src="../static/images/predcode.png">
