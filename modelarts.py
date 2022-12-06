@@ -24,8 +24,8 @@ def demo():
 def upload_file():
     uploaded_file = request.files['file']
     if uploaded_file.filename != '':
-        uploaded_file.save("./static/uploads/"+"1.png")
-        filepath="./static/uploads/"+"1.png"
+        uploaded_file.save("./static/uploads/"+uploaded_file.filename)
+        filepath="./static/uploads/"+uploaded_file.filename
     Auth_Token_URL = "https://iam.ap-southeast-3.myhuaweicloud.com/v3/auth/tokens"
     Body = {
           "auth" : { 
@@ -51,10 +51,10 @@ def upload_file():
     'X-Auth-Token' : X_Auth_Token
     }
     Files = {
-    'images' : open( file_path, 'rb' )
+    'images' : open(file_path, 'rb')
     }
     response = requests.post(Service_API_Address, headers = Headers, files = Files)
     print (response.status_code)
     print (type(response.text))
-    return render_template('Demo.html', variable=filepath, variable2=response.text)
+    return render_template('Demo.html', variable=file_path, variable2=response.text)
 
